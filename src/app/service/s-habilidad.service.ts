@@ -7,8 +7,8 @@ import { Habilidad } from '../model/habilidad';
   providedIn: 'root'
 })
 export class SHabilidadService {
-  /*URL = 'https://heroku-backendmariu.herokuapp.com/habilidad/'; */
-  URL= "http://localhost:8080/habilidad/";
+  /*URL = "http://localhost:8080/habilidad/"; */
+  URL= "https://backendmariu.herokuapp.com/habilidad/";
 
   constructor(private httpClient: HttpClient) { }
 
